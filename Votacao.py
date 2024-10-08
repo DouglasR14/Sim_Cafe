@@ -27,7 +27,7 @@ def pagina_votacao():
         "Luiz", 
         "Márcio", 
         "Régis", 
-        "Sttanley", 
+        "Stanley", 
         "Vivi"
     ]
 
