@@ -4,22 +4,6 @@ from PIL import Image
 # Configurar o layout e o tema da página
 st.set_page_config(page_title="Sim/Café", page_icon="💀")
 
-# Adicionar CSS para fundo preto
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background-color: black;
-        color: black;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# Carregar a imagem de caveira
-image = Image.open('skull.png')
-
 # Função para exibir a página da enquete
 def pagina_votacao():
     # Título e subtítulo
